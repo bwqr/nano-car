@@ -1,16 +1,12 @@
 <resources>
     <string name="app_name">NanoCar</string>
-    <string name="headlight_off">Headlight Off</string>
-    <string name="headlight_on">Headlight On</string>
-    <string name="engine_stopped">Engine Stopped</string>
-    <string name="left_door_open">Left Door Open</string>
-    <string name="left_door_closed">Left Door Closed</string>
-    <string name="right_door_open">Right Door Open</string>
-    <string name="right_door_closed">Right Door Closed</string>
-    <string name="left_signal_off">Left Signal Off</string>
-    <string name="left_signal_on">Left Signal On</string>
-    <string name="fan_off">Fan Off</string>
-    <string name="fan_on">Fan On</string>
-    <string name="temperature">Temperature %s</string>
-    <string name="seat_belt_fastened">Seat Belt Fastened</string>
+    <string name="headlight">Headlight %s</string>
+    <string name="engine">Engine: %s</string>
+    <string name="left_door">Left Door: %s</string>
+    <string name="right_door">Right Door: %s</string>
+    <string name="left_signal">Left Signal: %s</string>
+    <string name="right_signal">Right Signal: %s</string>
+    <string name="fan">Fan: %s</string>
+    <string name="temperature">Temperature: %s</string>
+    <string name="seat_belt_fastened">Seat Belt Fastened: %s</string>
 </resources>

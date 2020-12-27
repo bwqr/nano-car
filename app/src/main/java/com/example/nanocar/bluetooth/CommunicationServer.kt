@@ -167,7 +167,7 @@ class CommunicationServer(private val mDevice: BluetoothDevice) {
                 mmInputStream = mmSocket.inputStream
                 mmOutputStream = mmSocket.outputStream
             } catch (e: IOException) {
-                Log.e(TAG, "Getting streams faield $e")
+                Log.e(TAG, "Getting streams failed $e")
             }
 
             mState = STATE_CONNECTED
@@ -175,7 +175,7 @@ class CommunicationServer(private val mDevice: BluetoothDevice) {
 
         fun write(buffer: ByteArray) {
             try {
-                Log.i(TAG, "Writing into outputstream")
+//                Log.i(TAG, "Writing into outputstream")
                 mmOutputStream.write(buffer)
             } catch (e: IOException) {
                 Log.e(TAG, "Write failed $e")
